@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		D2A23B55280D547A00AC6033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B54280D547A00AC6033 /* AppDelegate.swift */; };
 		D2A23B57280D547A00AC6033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B56280D547A00AC6033 /* SceneDelegate.swift */; };
-		D2A23B59280D547A00AC6033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B58280D547A00AC6033 /* ViewController.swift */; };
 		D2A23B5C280D547A00AC6033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A23B5A280D547A00AC6033 /* Main.storyboard */; };
 		D2A23B5E280D547B00AC6033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A23B5D280D547B00AC6033 /* Assets.xcassets */; };
 		D2A23B61280D547B00AC6033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A23B5F280D547B00AC6033 /* LaunchScreen.storyboard */; };
 		D2A23B6C280D547B00AC6033 /* HW15_basic__Table_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B6B280D547B00AC6033 /* HW15_basic__Table_ViewTests.swift */; };
 		D2A23B76280D547B00AC6033 /* HW15_basic__Table_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B75280D547B00AC6033 /* HW15_basic__Table_ViewUITests.swift */; };
 		D2A23B78280D547B00AC6033 /* HW15_basic__Table_ViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B77280D547B00AC6033 /* HW15_basic__Table_ViewUITestsLaunchTests.swift */; };
+		D2A23B85280D54BF00AC6033 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B84280D54BE00AC6033 /* Fruit.swift */; };
+		D2A23B87280D551700AC6033 /* FruitTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B86280D551700AC6033 /* FruitTableViewController.swift */; };
+		D2A23B89280D5EFF00AC6033 /* DetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A23B88280D5EFF00AC6033 /* DetialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		D2A23B51280D547A00AC6033 /* HW15 basic  Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW15 basic  Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A23B54280D547A00AC6033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2A23B56280D547A00AC6033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2A23B58280D547A00AC6033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2A23B5B280D547A00AC6033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A23B5D280D547B00AC6033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2A23B60280D547B00AC6033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		D2A23B71280D547B00AC6033 /* HW15 basic  Table ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW15 basic  Table ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A23B75280D547B00AC6033 /* HW15_basic__Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW15_basic__Table_ViewUITests.swift; sourceTree = "<group>"; };
 		D2A23B77280D547B00AC6033 /* HW15_basic__Table_ViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW15_basic__Table_ViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2A23B84280D54BE00AC6033 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		D2A23B86280D551700AC6033 /* FruitTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewController.swift; sourceTree = "<group>"; };
+		D2A23B88280D5EFF00AC6033 /* DetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,12 @@
 			children = (
 				D2A23B54280D547A00AC6033 /* AppDelegate.swift */,
 				D2A23B56280D547A00AC6033 /* SceneDelegate.swift */,
-				D2A23B58280D547A00AC6033 /* ViewController.swift */,
 				D2A23B5A280D547A00AC6033 /* Main.storyboard */,
 				D2A23B5D280D547B00AC6033 /* Assets.xcassets */,
+				D2A23B88280D5EFF00AC6033 /* DetialViewController.swift */,
+				D2A23B86280D551700AC6033 /* FruitTableViewController.swift */,
 				D2A23B5F280D547B00AC6033 /* LaunchScreen.storyboard */,
+				D2A23B84280D54BE00AC6033 /* Fruit.swift */,
 				D2A23B62280D547B00AC6033 /* Info.plist */,
 			);
 			path = "HW15 basic  Table View";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A23B59280D547A00AC6033 /* ViewController.swift in Sources */,
+				D2A23B89280D5EFF00AC6033 /* DetialViewController.swift in Sources */,
+				D2A23B85280D54BF00AC6033 /* Fruit.swift in Sources */,
 				D2A23B55280D547A00AC6033 /* AppDelegate.swift in Sources */,
+				D2A23B87280D551700AC6033 /* FruitTableViewController.swift in Sources */,
 				D2A23B57280D547A00AC6033 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
